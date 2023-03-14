@@ -22,7 +22,11 @@ function ready(){
 let ityText = [
     "the most beautiful",
     "the most amazing",
-    "the coolest"
+    "the coolest",
+    "the funniest",
+    "the most caring",
+    "the most genuine",
+    "the best"
 ];
 let ityIndex = Math.round(Math.random() * (ityText.length-1));
 function changeITYText(){
