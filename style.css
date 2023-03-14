@@ -41,9 +41,7 @@ button{
 }
 
 .button-19 {
-    position: absolute;
-    bottom: 5px;
-    left: 0px;
+    position: relative;
   appearance: button;
   background-color: #1899D6;
   border: solid transparent;
