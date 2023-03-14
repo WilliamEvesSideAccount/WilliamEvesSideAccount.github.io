@@ -28,10 +28,10 @@ let ityText = [
     "the most genuine",
     "the best"
 ];
-let ityIndex = Math.round(Math.random() * (ityText.length-1));
+let ityIndex = 0;
 function changeITYText(){
-    let li = ityIndex;
-    while(ityIndex == li) ityIndex = Math.round(Math.random() * (ityText.length-1));
+    ityIndex++;
+    if(ityIndex == ityText.length) ityIndex = 0;
     let ity = document.getElementById("ity");
     ity.innerText = "I think you're " + ityText[ityIndex] + " girl I've ever met!"
 }
